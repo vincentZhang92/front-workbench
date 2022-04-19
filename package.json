@@ -1,0 +1,22 @@
+{
+  "name": "front-workbench",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+     "packages/@frontbench/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentZhang92/front-workbench.git"
+  },
+  "keywords": [
+    "front-end",
+    "workbench"
+  ],
+  "author": "Vincent Zhang",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.18"
+}

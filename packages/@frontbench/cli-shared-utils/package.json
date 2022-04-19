@@ -1,0 +1,31 @@
+{
+  "name": "@frontbench/cli-shared-utils",
+  "version": "0.0.1",
+  "description": "shared utilities for frontbench-cli packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentZhang92/front-workbench.git",
+    "directory": "packages/@frontbench/cli-shared-utils"
+  },
+  "keywords": [
+    "front-end",
+    "workbench",
+    "cli",
+    "cli-shared-utils"
+  ],
+  "author": "Vincent Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentZhang92/front-workbench/issues"
+  },
+  "homepage": "https://github.com/vincentZhang92/front-workbench#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
