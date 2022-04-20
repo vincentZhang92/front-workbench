@@ -15,7 +15,7 @@
     "removeComments": false,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
-    "types": ["jest", "puppeteer", "node"],
+    "types": ["node"],
     "rootDir": ".",
     "paths": {
       "@frontbench/*": ["packages/*/src"]
@@ -25,5 +25,6 @@
     "packages/global.d.ts",
     "packages/*/src",
     "packages/*/__tests__"
-  ]
+  ],
+  "exclude": ["node_modules", "dist", "**/*.js"]
 }

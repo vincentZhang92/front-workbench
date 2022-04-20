@@ -1,21 +1,25 @@
 {
-  "name": "@frontbench/cli",
+  "name": "@frontbench/cli-shared-utils",
   "version": "0.0.1",
-  "description": "Command line interface for project management",
-  "bin": {
-    "frontbench": "bin/frontbench.js"
-  },
-  "types": "types/index.d.ts",
+  "description": "shared utilities for frontbench-cli packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vincentZhang92/front-workbench.git",
-    "directory": "packages/@frontbench/cli"
+    "directory": "packages/@frontbench/cli-shared-utils"
   },
   "keywords": [
     "front-end",
     "workbench",
-    "cli"
+    "cli",
+    "cli-shared-utils"
   ],
+  "author": "Vincent Zhang",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vincentZhang92/front-workbench/issues"
   },
@@ -23,7 +27,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "4.1.2"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">= 14.0.0"
